@@ -5,7 +5,6 @@ module.exports = {
   entry: './src/carota.js',
   output: {
     filename: 'carota.min.js',
-    path: path.resolve(__dirname, 'dist'),
+    path: __dirname + '/../dist',
   },
 };
-
